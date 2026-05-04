@@ -1,0 +1,78 @@
+import type { Product } from '@/types/models';
+
+const img = (seed: number) => `https://picsum.photos/seed/farm-${seed}/400/400`;
+
+export const products: Product[] = [
+  {
+    id: 'dipirona-500mg',
+    name: 'Dipirona 500mg 20 comp.',
+    categoryId: 'medicamentos',
+    price: 12.9,
+    imageUrl: img(1),
+    shortDescription: 'Analgésico e antitérmico de referência.',
+    featured: true,
+  },
+  {
+    id: 'losartana-50mg',
+    name: 'Losartana potássica 50mg 30 comp.',
+    categoryId: 'medicamentos',
+    price: 28.5,
+    imageUrl: img(2),
+    shortDescription: 'Uso contínuo conforme prescrição médica.',
+    featured: true,
+  },
+  {
+    id: 'omega-3-1000',
+    name: 'Ômega 3 1000mg 60 cápsulas',
+    categoryId: 'vitaminas',
+    price: 64.9,
+    imageUrl: img(3),
+    shortDescription: 'Suplemento para suporte cardiovascular.',
+    featured: true,
+  },
+  {
+    id: 'fralda-p',
+    name: 'Fralda descartável P 30 un.',
+    categoryId: 'infantil',
+    price: 52.0,
+    imageUrl: img(4),
+    shortDescription: 'Conforto e absorção prolongada.',
+    featured: false,
+  },
+  {
+    id: 'protetor-solar-fps50',
+    name: 'Protetor solar facial FPS 50 40g',
+    categoryId: 'dermocosmeticos',
+    price: 79.9,
+    imageUrl: img(5),
+    shortDescription: 'Toque seco, pele sensível.',
+    featured: true,
+  },
+  {
+    id: 'sabonete-liquido',
+    name: 'Sabonete líquido antibacterial 250ml',
+    categoryId: 'higiene',
+    price: 18.9,
+    imageUrl: img(6),
+    shortDescription: 'Limpeza suave com ação prolongada.',
+    featured: false,
+  },
+  {
+    id: 'vitamina-d3',
+    name: 'Vitamina D3 2000 UI 30 cápsulas',
+    categoryId: 'vitaminas',
+    price: 32.0,
+    imageUrl: img(7),
+    shortDescription: 'Auxilia imunidade e saúde óssea.',
+    featured: false,
+  },
+  {
+    id: 'creme-hidratante',
+    name: 'Creme hidratante corporal 400ml',
+    categoryId: 'beleza',
+    price: 42.5,
+    imageUrl: img(8),
+    shortDescription: 'Hidratação intensa para pele seca.',
+    featured: false,
+  },
+];
