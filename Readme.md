@@ -18,9 +18,7 @@ O Cursor deve analisar o projeto existente, entender a estrutura atual, reaprove
 
 ---
 
-## O que deve ser feito
-
-O Cursor deve criar:
+## O que deve ser feito:
 
 - Estrutura completa do projeto
 - Componentes reutilizáveis
@@ -190,9 +188,7 @@ Deixar o projeto preparado para integrar futuramente com:
 
 ---
 
-## Entregáveis esperados
-
-O Cursor deve gerar:
+## Entregáveis esperados:
 
 1. Análise da estrutura atual do projeto
 2. Especificação técnica
