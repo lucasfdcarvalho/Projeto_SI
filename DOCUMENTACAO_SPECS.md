@@ -79,6 +79,49 @@ Esse comando ajudou a criar uma ponte entre a ideia e a implementação, permiti
 
 ---
 
+## 2. `/opsx-archive`
+
+### Definição
+
+O comando `/opsx-archive` foi utilizado para arquivar e documentar as mudanças realizadas no projeto após a criação das specs e execução das tasks.
+
+Enquanto o `/opsx-explore` foi usado para análise e levantamento de opções, e o `/opsx-propose` foi usado para criação das specs e tarefas, o `/opsx-archive` entrou como uma etapa final para registrar o que foi feito no desenvolvimento.
+
+### Como foi aplicado no projeto
+
+Após finalizar as principais etapas do projeto, utilizei o `/opsx-archive` para documentar o histórico do desenvolvimento da aplicação web da farmácia.
+
+Esse comando ajudou a registrar as specs criadas, as tasks executadas, as decisões técnicas tomadas, a estrutura final do projeto, as funcionalidades implementadas e as limitações percebidas.
+
+### Exemplo utilizado
+
+```
+/opsx-archive Arquive e documente todas as mudanças realizadas neste projeto.
+```
+
+### Papel desse comando
+
+Esse comando teve o papel de finalizar a documentação do processo de desenvolvimento.
+
+Ele ajudou a manter um registro mais organizado sobre:
+
+- As specs criadas
+- As tasks executadas
+- As decisões técnicas tomadas
+- A estrutura final do projeto
+- As funcionalidades implementadas
+- O uso do template vindo do Figma
+- A definição de uso de dados mockados
+- A criação do chatbot inicial
+- A criação do arquivo GUIA_INSTALACAO.md
+- A criação do arquivo README_SPECS.md
+- Possíveis limitações do projeto
+- Sugestões de melhorias futuras
+
+Dessa forma, o `/opsx-archive` complementou os comandos anteriores, servindo como uma documentação final do que foi feito no projeto.
+
+---
+
 # O que entendi sobre Specs
 
 Specs, ou especificações, são documentos que descrevem de forma organizada o que precisa ser feito em um projeto antes ou durante a implementação.
@@ -121,6 +164,8 @@ Em seguida, usei o comando `/opsx-propose` para pedir a criação das specs e da
 Nesse momento, a ideia deixou de ser apenas uma descrição geral e passou a ser organizada em partes menores, facilitando o desenvolvimento.
 
 Também usei o `/opsx-propose` para solicitar a criação do arquivo GUIA_INSTALACAO.md, que teria o objetivo de explicar para outros usuários como instalar dependências e iniciar o projeto em suas próprias máquinas.
+
+Por fim, utilizei o comando `/opsx-archive` para arquivar e documentar as mudanças realizadas no projeto. Essa etapa serviu para registrar o que foi implementado, quais tasks foram concluídas e quais decisões técnicas foram tomadas durante o desenvolvimento.
 
 ---
 
@@ -168,6 +213,6 @@ Com base na prática, entendi que specs são uma forma de planejar melhor o dese
 
 No projeto da farmácia, elas ajudaram a organizar a ideia, analisar o template existente, definir o uso de dados mockados, pensar em opções para o back-end e criar tarefas mais claras para o desenvolvimento.
 
-O uso dos comandos `/opsx-explore` e `/opsx-propose` tornou o processo mais estruturado, evitando que o projeto fosse desenvolvido de forma aleatória.
+O uso dos comandos `/opsx-explore`, `/opsx-propose` e `/opsx-archive` tornou o processo mais estruturado, evitando que o projeto fosse desenvolvido de forma aleatória.
 
 Mesmo assim, percebi que é importante escrever bons comandos, revisar as respostas da IA e acompanhar cada etapa do desenvolvimento.
